@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Kumbh+Sans:wght@400;700&display=swap');
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+
+}
+
+p, summary{
+    color:hsl(240, 6%, 50%);
+}
+
+h3{
+    margin: 0;
+    display: inline;
+}
+h1, summary:hover{
+    color: hsl(237, 12%, 33%);
+    cursor: pointer
+}
+
+hr{
+    border: 1px solid hsl(240, 5%, 91%);
+}
+
+.container{
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 900px;
+    margin: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;    
+    justify-content: space-around;
+}
+
+details{
+    padding: 10px;    
+    margin-right: 20px;
+}
+details > summary{
+    list-style-image: url('images/icon-arrow-down.svg');
+}
+
+.woman-illustration{
+    margin: auto;
+    margin-left: -90px;
+    margin-top: -90px;
+    padding-bottom: 50px;
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    left: -110px;
+    top: 235px;
+}
+
+.faq-text{
+    margin-top: 10%;
+    width: 350px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: hsl(240, 5%, 91%);
+}
+
+
+
+
